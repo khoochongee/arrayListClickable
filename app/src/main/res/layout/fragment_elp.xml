@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusableInTouchMode="true"
+            android:background="#00000000"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:src="@drawable/userpic" />
+
+            <TextView
+                android:id="@+id/Username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="Username"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight='10dp'
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <View
+                android:id="@+id/lineLeft"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="#b8b8b8" />
+
+            <TextView
+                android:id="@+id/link_to_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:gravity="center"
+                android:text="Course Overview"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/lineRight"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="#b8b8b8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textStyle="bold"
+                android:text="Course Intake"
+                android:padding="5dp"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/subject1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/LightSteel"
+                android:clickable="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="3dp"
+                    android:text="ABCD123-SUBJECT 1"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:gravity='right'
+                    android:text="Lecturer : Mr.Tan Ming Dek"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:gravity='right'
+                    android:paddingBottom="20dp"
+                    android:text="电脑科学/质询工艺系Information Technology CSIT-NEUC"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/subject2"
+                android:clickable="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="30dp"
+                    android:text="EFGH5678-SUBJECT 2"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:gravity='right'
+                    android:text="Lecturer : Mrs. Ainaa Binti Muhammad"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:gravity='right'
+                    android:paddingBottom="20dp"
+                    android:text="电脑科学/质询工艺系Information Technology CSIT-NEUC"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/LightSteel"
+                android:clickable="true"
+                android:id="@+id/subject3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="30dp"
+                    android:paddingBottom="3dp"
+                    android:text="TNWK-294 Workplace Writing"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:gravity='right'
+                    android:text="Lecturer : Mr. Woo Ken Jia"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:gravity='right'
+                    android:paddingBottom="20dp"
+                    android:text="共同科目Common Subject "
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/subject4">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="30dp"
+                    android:paddingBottom="3dp"
+                    android:text="TMAT 124- Introduction To Statistics"
+                    android:textColor="@color/RoyalBlue"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:gravity='right'
+                    android:text="Lecturer : Ms. Lim Bee Guat"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:gravity='right'
+                    android:paddingBottom="20dp"
+                    android:text="商学与资讯工艺系 Department of Business/IT "
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/LightCyan"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:text="All Courses"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/subSubject1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="• ABCD123-SUBJECT 1"
+                android:textColor="@color/RoyalBlue"
+                android:textStyle="bold"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/subSubject2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="• EFGH5678-SUBJECT 2"
+                android:textStyle="bold"
+                android:textColor="@color/RoyalBlue"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/subSubject3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="• TNWK-294 Workplace Writing"
+                android:textStyle="bold"
+                android:textColor="@color/RoyalBlue"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/subSubject4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="• TMAT 124- Introduction To Statistics"
+                android:textStyle="bold"
+                android:textColor="@color/RoyalBlue"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:orientation="vertical">
+
+            <CalendarView
+                android:id="@+id/calendarView2"
+                android:layout_width="wrap_content"
+                android:layout_height="305dp"
+                android:layout_gravity="center"
+                android:padding="-100dp" />
+        </LinearLayout>>
+    </LinearLayout>
+</ScrollView>

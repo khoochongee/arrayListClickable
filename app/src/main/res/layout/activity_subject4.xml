@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:theme="@style/ToolBar"
+        app:titleTextColor="@color/White"
+        app:popupTheme="@style/ToolBarPopup"
+        android:background="@color/RoyalBlue"
+        />
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/LightOrange"
+            android:paddingBottom="25dp"
+            >
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TMAT 124 - Introduction To Statistics"
+                    android:textSize="25sp"
+                    android:fontFamily="bold"
+                    android:paddingLeft="17dp"
+                    android:paddingTop="10sp"
+                    android:textColor="#2e5cb8"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="17dp"
+                    android:paddingTop="5dp"
+                    android:text="CSIT/EFGH5678/TBK/ENG"
+                    android:textSize="11sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="17dp"
+                    android:text="Intakes: March / May/ September /December  "
+                    android:textSize="11sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="17dp"
+                    android:text="Lecturer: Ms. Lim Bee Guat"
+                    android:textSize="11sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="10dp"
+                    android:text="Duration: 14 weeks"
+                    android:textSize="11sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 1"
+                    android:textColor="@color/blue"
+                    android:paddingTop="30dp"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/excel"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Syllabus"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/pdf"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Formula"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/word"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mid Term Answer List"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/pdf"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mid Term Marks"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 2"
+                    android:textColor="@color/blue"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/powerpoint"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter 1 "
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:src="@drawable/pdf"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tutorial 1"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 3"
+                    android:textColor="@color/blue"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/powerpoint"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter 2"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:src="@drawable/pdf"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tutorial 2"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 4"
+                    android:textColor="@color/blue"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/powerpoint"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter 3"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:src="@drawable/pdf"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tutorial 3"
+                    android:paddingLeft="9dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="17dp"
+                    android:src="@drawable/submission" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="9dp"
+                    android:paddingTop="1dp"
+                    android:text="Assignment 1"
+                    android:textSize="11.5sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 5"
+                    android:textColor="@color/blue"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mid term exam (Week 6)"
+                    android:paddingLeft="18.5dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    android:textColor="#000000"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Test 1 : Chapter 1 to 3"
+                    android:paddingLeft="33dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="4dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/powerpoint"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter 4"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:src="@drawable/pdf"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tutorial 4"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 6"
+                    android:textColor="@color/blue"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/word"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mid Term (30%)"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please finish ALL the questions and zip the file before submission"
+                    android:paddingLeft="18.5dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    android:textColor="#000000"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:src="@drawable/submission"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mid Term (submission)"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 7"
+                    android:textColor="@color/blue"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/powerpoint"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter 5"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:src="@drawable/pdf"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tutorial 5"
+                    android:paddingLeft="9dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="17dp"
+                    android:src="@drawable/submission" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="9dp"
+                    android:paddingTop="1dp"
+                    android:text="Assignment 2"
+                    android:textSize="11.5sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:src="@drawable/excel"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mega Stat"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 8"
+                    android:textColor="@color/blue"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/powerpoint"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter 6"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:src="@drawable/pdf"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tutorial 6"
+                    android:paddingLeft="9dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 9"
+                    android:textColor="@color/blue"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            //
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/powerpoint"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter 7"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:src="@drawable/pdf"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tutorial 7"
+                    android:paddingLeft="9dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 10"
+                    android:textColor="@color/blue"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/powerpoint"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter 8"
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="17dp"
+                    android:src="@drawable/pdf" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="9dp"
+                    android:paddingTop="1dp"
+                    android:text="Tutorial 8"
+                    android:textSize="11.5sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/submission" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="9dp"
+                    android:paddingTop="1dp"
+                    android:text="Assignment 3"
+                    android:textSize="11.5sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 11"
+                    android:textColor="@color/blue"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:src="@drawable/powerpoint"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter 9 "
+                    android:paddingLeft="7dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:src="@drawable/pdf"
+                    android:layout_width="13dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tutorial 9 "
+                    android:paddingLeft="9dp"
+                    android:textSize="11.5sp"
+                    android:paddingTop="1dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 12"
+                    android:textColor="@color/blue"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 13"
+                    android:textColor="@color/blue"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="17dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/PureWhite"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week 14"
+                    android:textColor="@color/blue"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="17dp"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

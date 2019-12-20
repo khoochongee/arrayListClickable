@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".libraryFunctions.about_us">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:theme="@style/ToolBar"
+        app:titleTextColor="@color/White"
+        app:popupTheme="@style/ToolBarPopup"
+        android:background="@color/RoyalBlue"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="New Era University College Library is located on the ground floor of Block B. It occupies a total floor area of about 30,000 square feet spreading over three levels. Level One comprises the service counter, reference section, Chinese/English/Bahasa Malaysia books section and magazines section. Level Two consists of Resource Centre for Nanyang University, Fang Xiu Collection Section, Lee Yip Lim Collection Section, reading section, computer area and discussion room. Level Three houses the leisure reading section, Lee Kim Chong Collection Section, Chinese books section and the library office. The library has about 380 seats for reading, library also provide wireless internet service. The operation of the library is fully computerized. Through the OPAC system, students can check on book information, renew their borrowed books and place their bookings for specific books."
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Opening hours for the library are as follows:"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Monday to Friday"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+
+                        android:text=": 0830 to 2100"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Saturday"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text=": 0830 to 1230"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:text="(Closed on Sunday and public holidays; Opening hours during semester holidays to be announced separately)"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

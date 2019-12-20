@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:text="Notification 1"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:text="Date 1"/>
+
+
+</LinearLayout>

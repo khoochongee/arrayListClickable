@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".libraryFunctions.user_guides">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:theme="@style/ToolBar"
+        app:titleTextColor="@color/White"
+        app:popupTheme="@style/ToolBarPopup"
+        android:background="@color/RoyalBlue"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="General provisions"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="1)Staff and students can use the staff ID cards and student ID cards to borrow books from the library. The ID cards are not transferable
+              \n2)Expensive books, reference books, current issues of magazines and newspapers are only for reading in the library and are not for lending.
+              \n3)The library has the right to bar the entry of any person who has breached these library regulations.
+              \n"/>
+
+            //////////////////////////
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Regulations on reading"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1)Books in the library are placed on open shelves and library users can have free access to these books. After reading, books will be sorted out and put back to the shelves by the library staff.
+                \n2)Library users must take good care of the books, magazines, newspapers and other facilities in the library and should not smear or damage them or bring them out of the library. Offenders will be heavily penalized.
+    \n"
+                android:textSize="18dp"/>
+
+            //////////////////////////
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Regulations on borrowing of books"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1)The library adopts the open shelf system and users can select the books for borrowing by presenting their ID cards.
+                \n2)Staff and students can borrow books subject to the maximum numbers and durations as follows:
+                \n3)Full-time lecturers: up to 30 books for 2 months.
+                \n4)Part-time lecturers: up to 20 books for 1 semester.
+                \n5)Staff: up to 10 books for 1 month.
+    \n"
+                android:textSize="18dp" />
+
+            //////////////////////////
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Compensation"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compensation shall be paid as follows:
+               \n1)If the lost book can be purchased again, the library will purchase the book and the borrower will pay the book price plus an administration fee of RM5.00.
+               \n2)If the lost book is out of print and cannot be purchased in the country, the borrower shall:
+    \n   (a) pay RM150 if the book price is below RM50.00.
+    \n   (b) pay three times the price of the book if the book price is above RM50.00.
+    \n"
+                android:textSize="18dp"/>
+
+            //////////////////////////
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Opening hours"
+                android:textSize="25dp" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1)Opening hours for the library are as follows:
+    \n- Monday to Friday : 0830 to 2100
+    \n- Saturday               : 0830 to 1230
+    \n\n(Closed on Sunday and public holidays; Opening hours during semester holidays to be announced separately)
+    \n"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

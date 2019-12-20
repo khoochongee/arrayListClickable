@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".libraryFunctions.regulations"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:theme="@style/ToolBar"
+        app:titleTextColor="@color/White"
+        app:popupTheme="@style/ToolBarPopup"
+        android:background="@color/RoyalBlue"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="General Provisions"
+                    android:textSize="25sp"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Staff and students can use the staff ID cards and student ID cards to borrow books from the library. The ID cards are not transferable.
+    Expensive books, reference books, current issues of magazines and newspapers are only for reading in the library and are not for lending.
+    The library has the right to bar the entry of any person who has breached these library regulations."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regulations On Reading"
+                    android:textSize="25sp"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Books in the library are placed on open shelves and library users can have free access to these books. After reading, books will be sorted out and put back to the shelves by the library staff.
+    Library users must take good care of the books, magazines, newspapers and other facilities in the library and should not smear or damage them or bring them out of the library. Offenders will be heavily penalized.
+    All library users must dress appropriately. Individuals wearing slippers, shorts and singlet are not permitted to enter the library.
+    Library users must observe silence and maintain the cleanliness of the library. No food and drink (except plain water) is allowed.
+    Strictly prohibited to bring any kind or sizes bags into the Library."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Borrowing Books"
+                    android:textSize="25sp"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The library adopts the open shelf system and users can select the books for borrowing by presenting their ID cards.
+    Staff and students can borrow books subject to the maximum numbers and durations as follows:\n
+    Full-time lecturers: up to 30 books for 2 months.\n
+    Part-time lecturers: up to 20 books for 1 semester.\n
+    Staff: up to 10 books for 1 month.\n
+    Students: up to 10 books for 2 weeks.\n
+    Postgraduate student: up to 20 books for 1 month.\n
+    Public members: up to 4 books for 1 month.\n
+    Books borrowed from the library must not be defaced or damaged in any way."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Renewal"
+                    android:textSize="25sp"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All books can be renewed once before the due date.
+    Books can be presented at the library service counter for renewal, or, library users can use online renewals service to renew their borrowing items."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="General provisions"
+                    android:textSize="25sp"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Overdue books
+    Library users who have borrowed the maximum numbers of books or have overdue books are not allowed to borrow other books.
+    A fine of RM0.20 per day per book will be imposed on overdue books. Books that are overdue for more than 30 days are deemed to A fine of RM0.20 per day per book will be imposed on overdue books. If a book is overdue for more than 30 days, in addition to the fine computed daily, it is deemed as lost and must be compensated in accordance with Regulation 6.2 below."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="General provisions"
+                    android:textSize="25sp"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Compensation
+    Books borrowed should not be lost, scribbled with marks or notes or have the pages folded or damaged in any way. If books are lost or damaged, the borrower will be responsible to pay compensation.
+    Compensation shall be paid as follows:
+    If the lost book can be purchased again, the library will purchase the book and the borrower will pay the book price plus an administration fee of RM5.00.
+    If the lost book is out of print and cannot be purchased in the country, the borrower shall:\n
+    (a) pay RM150 if the book price is below RM50.00.\n
+    (b) pay three times the price of the book if the book price is above RM50.00.\n
+    Compensation shall be paid within one month. The compensation amount received will be credited to the library fund for purchasing new books."/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recalling books"
+                    android:textSize="25sp"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="In the event of stocktaking, re-coding or book binding, the library can recall books lent out from the library and announce a temporary freeze on book lending.
+    In case a book lent out is needed for official purposes, the library has the right to call back the book at any time.
+    Outsiders entering the library
+    Outsiders who have genuine need for reference and research may enter the library when it is open.
+    Outsiders wishing to enter the library shall submit their identity cards to the library service counter and fill in their personal details. Those without their identity cards shall be barred from entering the library.
+    For group visits, prior arrangements should be made with the library and an official letter from the organization or school concerned shall be presented to gain entry into the library.
+    Outsiders entering the library shall observe all the library regulations, the library reserves the right to bar their entry."/>"
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:background="@color/Black">
+                <TextView
+                    android:textColor="@color/White"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="These regulations and any subsequent amendments shall be approved by the College Management Committee Meeting before they are announced for implementation."/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

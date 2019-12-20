@@ -2,14 +2,38 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/neuc"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Function1"></activity>
+        <activity android:name=".Subject4" android:label="@string/subject4" />
+        <activity android:name=".Subject3" android:label="@string/subject3"/>
+        <activity android:name=".Subject2" android:label="@string/subject2"/>
+        <activity android:name=".Subject1" android:label="@string/subject1"/>
+        <activity
+            android:name=".NoticeProfile"
+            android:label="@string/e_notice" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/home" />
+        <activity android:name=".BookProfile" />
+        <activity
+            android:name=".libraryFunctions.user_guides"
+            android:label="@string/user_guides" />
+        <activity
+            android:name=".libraryFunctions.bookSearch"
+            android:label="@string/book_search" />
+        <activity
+            android:name=".libraryFunctions.regulations"
+            android:label="@string/library_regulations" />
+        <activity
+            android:name=".libraryFunctions.about_us"
+            android:label="@string/about_us" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

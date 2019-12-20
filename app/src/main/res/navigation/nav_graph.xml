@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.myapplication.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" >
+        <action
+            android:id="@+id/action_mainActivity_to_elpFragement"
+            app:destination="@id/elpFragement" />
+        <action
+            android:id="@+id/action_mainActivity_to_eNoticeFragment"
+            app:destination="@id/eNoticeFragment" />
+        <action
+            android:id="@+id/action_mainActivity_to_libraryFragment"
+            app:destination="@id/libraryFragment" />
+    </activity>
+    <fragment
+        android:id="@+id/elpFragement"
+        android:name="com.example.myapplication.elpFragment"
+        android:label="fragment_elp"
+        tools:layout="@layout/fragment_elp" />
+    <fragment
+        android:id="@+id/eNoticeFragment"
+        android:name="com.example.myapplication.eNoticeFragment"
+        android:label="fragment_e_notice"
+        tools:layout="@layout/fragment_e_notice" />
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.example.myapplication.libraryFragment"
+        android:label="fragment_library"
+        tools:layout="@layout/fragment_library" />
+</navigation>

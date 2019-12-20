@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="neuc">New Era University College</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="e_notice">E-Notice</string>
+    <string name="elp">ELP</string>
+
+    <string name="book_search">Search Book</string>
+    <string name="user_guides">User Guides</string>
+    <string name="library_regulations">Library Regulations</string>
+    <string name="about_us">About Us</string>
+
+    <string name="subject1">Subject 1</string>
+    <string name="subject2">Subject 2</string>
+    <string name="subject3">Subject 3</string>
+    <string name="subject4">Subject 4</string>
 </resources>
